@@ -61,9 +61,10 @@ public class Constant {
                 "OkCupid",
                 "ADVERTISER DISCLOSURE",
                 "Naked",
-                "Marriage"
+                "Marriage",
+                "About us"
         );
-        public static final int NUMBER_OF_GOOD_FOOTER_BUTTONS = 38;
+        public static final int NUMBER_OF_GOOD_FOOTER_BUTTONS = 39;
     }
 
     public static class Reg {
