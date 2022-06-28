@@ -83,7 +83,7 @@ public class LocalHookupTest extends BaseTest {
     }
 
     @Test
-    public void visitSiteButtonTest () {
+    public void visitSiteRegButtonTest () {
         int goodTitlesCount = 0;
         for (int i = 1; i <= NUMBER_OF_VISIT_SITE_REG_BUTTONS_LOCAL_HOOKUP_PAGE; i++) {
             basePage.waitOneSeconds();
