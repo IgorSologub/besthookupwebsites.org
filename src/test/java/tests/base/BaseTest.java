@@ -30,34 +30,34 @@ public class BaseTest {
         switch (browser) {
             case "main" :
             case "findHookup" :
-                driver = CommonActions.createDriver("OPERA", 1024, 1366);
+                driver = CommonActions.createDriver("CHROME", 1024, 1366);
                 break;
             case "reviewCategory" :
-                driver = CommonActions.createDriver("OPERA", 360, 640);
+                driver = CommonActions.createDriver("CHROME", 360, 640);
                 break;
             case "review" :
-                driver = CommonActions.createDriver("OPERA", 640, 360);
+                driver = CommonActions.createDriver("CHROME", 640, 360);
                 break;
             case "escort" :
-                driver = CommonActions.createDriver("OPERA", 768, 1024);
+                driver = CommonActions.createDriver("CHROME", 768, 1024);
                 break;
             case "blogCategory" :
-                driver = CommonActions.createDriver("OPERA", 1024, 768);
+                driver = CommonActions.createDriver("CHROME", 1024, 768);
                 break;
             case "blog" :
-                driver = CommonActions.createDriver("OPERA", 1024, 1366);
+                driver = CommonActions.createDriver("CHROME", 1024, 1366);
                 break;
             case "sugarDaddies" :
                 driver = CommonActions.createDriver("CHROME", 1024, 768);
                 break;
             case "hookupApps" :
-                driver = CommonActions.createDriver("OPERA", 375, 667);
+                driver = CommonActions.createDriver("CHROME", 375, 667);
                 break;
             case "localHookup" :
-                driver = CommonActions.createDriver("OPERA", 667, 375);
+                driver = CommonActions.createDriver("CHROME", 667, 375);
                 break;
             case "contactUs" :
-                driver = CommonActions.createDriver("OPERA", 360, 640);
+                driver = CommonActions.createDriver("CHROME", 360, 640);
                 break;
         }
         basePage = new BasePage(driver);
