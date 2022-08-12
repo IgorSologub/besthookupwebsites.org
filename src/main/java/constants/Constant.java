@@ -122,7 +122,8 @@ public class Constant {
                 "EHarmony",
                 "Catholicsingles.com",
                 "Sites",
-                "dating"
+                "dating",
+                "sex"
         );
         public static final List<String> AUTHORS_TITLES = Arrays.asList(
                 "Erik",
